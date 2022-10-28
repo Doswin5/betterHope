@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/Footerf";
-import Header from "./components/Headerf";
 import Homepage from "./Pages/Homef/Homepage";
 import Campaigns from "./Pages/Campaignsf/Campaings";
 import Aboutus from "./Pages/Aboutusf/Aboutus";
@@ -13,7 +11,7 @@ import Donateitem from "./Pages/Donateitems/Donateitem";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/Campaigns" element={<Campaigns />} />
@@ -23,7 +21,7 @@ function App() {
           <Route path="/Donate" element={<Donate />} />
           <Route path="/Donateitem" element={<Donateitem />} />
         </Routes>
-      <Footer />
+      </Router>
     </div>
   );
 }

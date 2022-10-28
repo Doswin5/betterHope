@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../../components/HeaderF/Header";
 import Sectionone from "./section/Sectiononef/Sectionone";
-import Campaignshome from "./section/CampaigndHome/Campaignshome";
+import Campaignshome from "./section/CampaignsHome/Campaignshome";
 import OngoingCampaign from "./section/OngoingCampaign/OngoingCampaign";
 import Footer from "../../components/Footerf/Footer";
 import TrustedPartners from "./section/TrustedPartners/TrustedPartners";

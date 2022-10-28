@@ -40,7 +40,7 @@ const Header = ({
           {listtwo}
         </Link>
 
-        <Link className={classes["nav__li"]} to="/About Us">
+        <Link className={classes["nav__li"]} to="/Aboutus">
           {listthree}
         </Link>
         <Link className={classes["nav__li"]} to="/Faq">
